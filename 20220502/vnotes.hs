@@ -3,3 +3,23 @@ iotest = do z <- getLine
 
 -- b = do c <− getLine
 --       print c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
