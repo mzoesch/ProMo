@@ -1,4 +1,5 @@
 -- fak3.hs
+
 fak :: Integer -> Maybe Integer
 fak n | n < 0     = Nothing
 fak n | n == 0    = Just 1

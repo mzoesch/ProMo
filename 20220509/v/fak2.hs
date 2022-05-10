@@ -1,4 +1,5 @@
 -- fak2.hs
+
 import Debug.Trace
 
 fak :: Integer -> Integer

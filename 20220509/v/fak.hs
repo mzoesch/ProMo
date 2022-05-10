@@ -1,4 +1,5 @@
 -- fak.hs
+
 import Debug.Trace
 
 main :: IO()
