@@ -7,7 +7,7 @@ alleGleich x y z = x == y && y == z
 -- b) Schreiben Sie eine Funktion ungerade :: Integral a => a -> Bool, die überprüft, ob eine Integer Zahl ungerade ist.
 --    Verwenden Sie hierzu nicht die vordefinierten Funktionen even oder odd.
 ungerade :: Integral a => a -> Bool
-ungerade x = x `mod` 2 == 1
+ungerade x = x `mod` 2 /= 0
 
 -- c) Schreiben Sie eine Funktion gerade :: Integral a => a -> Bool, die überprüft, ob eine Integer Zahl gerade ist.
 --    Verwenden Sie hierzu nicht die vordefinierten Funktionen odd oder even.
