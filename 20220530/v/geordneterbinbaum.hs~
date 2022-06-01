@@ -1,0 +1,19 @@
+-- geordneterbinbaum.hs
+data BB a = L | MK a (BB a) (BB a) deriving (Show)
+
+istIn :: Ord a => a -> BB a -> Bool
+istIn _ L                           = False
+istIn x (MK w links _)  | x < w     = istIn x links
+istIn x (MK w _ _)      | x == w    = True
+istIn x (MK w _ rechts) | otherwise = (istIn x rechts)
+
+baum :: BB Char
+baum = MK 'e'
+            (MK 'c'
+                (MK 'b' L L)
+                (MK 'd' L L)
+            )
+            (MK 'g'
+                (MK 'f' L L)
+                (MK 'h' L L)
+            )
