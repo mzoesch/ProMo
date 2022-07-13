@@ -1,0 +1,11 @@
+Haskell:
+
+--Display time for an oper.:
+:set +s
+
+-- ghcup
+-- cabalo
+-- Criterion
+
+-- web; https://www.haskell.org/ghcup/
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
