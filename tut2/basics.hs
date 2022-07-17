@@ -56,8 +56,3 @@ removedPrimes = drop 3 morePrimes2
 is7InList = 7 `elem` morePrimes2
 maxPrime = maximum morePrimes2
 minPrime = minimum morePrimes2
-
-
-
-
-
